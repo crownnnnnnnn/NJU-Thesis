@@ -1,0 +1,44 @@
+﻿tc_id,tc_name,module,result,duration,remark
+TC01,正确账号密码登录,OrangeHRM-FIREFOX,通过,9.79s,
+TC02,错误密码登录验证错误提示,OrangeHRM-FIREFOX,通过,9.01s,
+TC03,空值登录验证必填信息,OrangeHRM-FIREFOX,通过,7.51s,
+TC04,登陆后首页Dashboard加载验证,OrangeHRM-FIREFOX,通过,9.49s,
+TC05,菜单导航跳转测试,OrangeHRM-FIREFOX,通过,15.61s,
+TC06,员工姓名搜索测试,OrangeHRM-FIREFOX,通过,12.25s,
+TC07,表格列标题显示验证,OrangeHRM-FIREFOX,通过,12.43s,
+TC08,下拉框选择User Role验证,OrangeHRM-FIREFOX,通过,13.03s,
+TC09,表格分页切换测试,OrangeHRM-FIREFOX,通过,13.89s,分页按钮正常
+TC10,填写表单以及上传文件,OrangeHRM-FIREFOX,通过,13.65s,
+TC11,页面刷新后登录状态保持验证,OrangeHRM-FIREFOX,通过,15.58s,
+TC12,退出登录返回登录页验证,OrangeHRM-FIREFOX,通过,12.16s,
+TC13,文本框输入姓名邮箱以及手机号,DemoQA-FIREFOX,通过,8.03s,
+TC14,单选框选择性别,DemoQA-FIREFOX,通过,8.81s,
+TC15,复选框选择爱好以及状态判断,DemoQA-FIREFOX,通过,8.79s,
+"TC16,日期控件选择出生日期,DemoQA-FIREFOX,失败,20.58s,""Message: "
+Stacktrace:
+"RemoteError@chrome://remote/content/shared/RemoteError.sys 截图:screenshots\TC16_firefox_1779443260.png"""
+TC17,上传本地测试文件,DemoQA-FIREFOX,通过,8.69s,
+"TC18,表单提交验证弹窗内容,DemoQA-FIREFOX,失败,9.82s,""Message: Element <button id=""""submit"""" class=""""btn btn-primary"""" type=""""submit""""> is n 截图:screenshots\TC18_firefox_1779443284.png"""
+TC19,Alert弹窗获取文本并确认,DemoQA-FIREFOX,通过,8.72s,
+TC20,Confirm弹窗点击确认和取消,DemoQA-FIREFOX,通过,9.26s,
+TC21,Prompt弹窗输入内容并提交,DemoQA-FIREFOX,通过,10.84s,
+TC22,多窗口打开并切换,DemoQA-FIREFOX,通过,9.85s,
+TC23,iframe切换进入操作,DemoQA-FIREFOX,通过,8.64s,
+TC24,拖拽元素到目标区域,DemoQA-FIREFOX,通过,17.03s,
+TC25,页面滚动后浮动菜单始终可见验证,TheInternet-FIREFOX,通过,8.89s,
+TC26,页面图片加载状态检测,TheInternet-FIREFOX,通过,8.57s,损坏2张 正常1张
+TC27,页面无限滚动加载新内容验证,TheInternet-FIREFOX,通过,22.97s,段落数 2 → 12
+TC28,随机通知消息刷新验证,TheInternet-FIREFOX,通过,18.79s,共收集到2种消息
+TC29,Dynamic Controls 元素动态出现与消失,TheInternet-FIREFOX,通过,25.81s,
+TC30,Dynamic Loading 等待隐藏元素加载完成,TheInternet-FIREFOX,通过,11.97s,
+TC31,鼠标悬浮显示隐藏用户信息,TheInternet-FIREFOX,通过,13.51s,
+TC32,键盘按键事件捕获验证,TheInternet-FIREFOX,通过,7.97s,
+TC33,新窗口打开与切换验证,TheInternet-FIREFOX,通过,7.88s,
+TC34,页面刷新菜单项动态变化验证,TheInternet-FIREFOX,通过,15.40s,
+
+总用例数,34
+通过,32
+失败,2
+通过率,94.1%
+总耗时,450.53s
+浏览器,FIREFOX

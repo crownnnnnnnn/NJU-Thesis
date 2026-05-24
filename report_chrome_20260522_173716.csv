@@ -1,0 +1,42 @@
+﻿tc_id,tc_name,module,result,duration,remark
+TC01,正确账号密码登录,OrangeHRM-CHROME,通过,9.75s,
+TC02,错误密码登录验证错误提示,OrangeHRM-CHROME,通过,8.55s,
+TC03,空值登录验证必填信息,OrangeHRM-CHROME,通过,6.15s,
+TC04,登陆后首页Dashboard加载验证,OrangeHRM-CHROME,通过,8.30s,
+TC05,菜单导航跳转测试,OrangeHRM-CHROME,通过,14.23s,
+TC06,员工姓名搜索测试,OrangeHRM-CHROME,通过,12.71s,
+TC07,表格列标题显示验证,OrangeHRM-CHROME,通过,11.41s,
+TC08,下拉框选择User Role验证,OrangeHRM-CHROME,通过,12.50s,
+TC09,表格分页切换测试,OrangeHRM-CHROME,通过,12.92s,分页按钮正常
+TC10,填写表单以及上传文件,OrangeHRM-CHROME,通过,14.53s,
+TC11,页面刷新后登录状态保持验证,OrangeHRM-CHROME,通过,11.50s,
+TC12,退出登录返回登录页验证,OrangeHRM-CHROME,通过,11.10s,
+TC13,文本框输入姓名邮箱以及手机号,DemoQA-CHROME,通过,5.13s,
+TC14,单选框选择性别,DemoQA-CHROME,通过,6.11s,
+TC15,复选框选择爱好以及状态判断,DemoQA-CHROME,通过,6.04s,
+TC16,日期控件选择出生日期,DemoQA-CHROME,通过,6.12s,
+TC17,上传本地测试文件,DemoQA-CHROME,通过,5.96s,
+TC18,表单提交验证弹窗内容,DemoQA-CHROME,通过,5.23s,
+TC19,Alert弹窗获取文本并确认,DemoQA-CHROME,通过,6.00s,
+TC20,Confirm弹窗点击确认和取消,DemoQA-CHROME,通过,6.50s,
+TC21,Prompt弹窗输入内容并提交,DemoQA-CHROME,通过,7.97s,
+TC22,多窗口打开并切换,DemoQA-CHROME,通过,7.06s,
+TC23,iframe切换进入操作,DemoQA-CHROME,通过,6.31s,
+TC24,拖拽元素到目标区域,DemoQA-CHROME,通过,12.74s,
+TC25,页面滚动后浮动菜单始终可见验证,TheInternet-CHROME,通过,5.96s,
+TC26,页面图片加载状态检测,TheInternet-CHROME,通过,5.24s,损坏2张 正常1张
+TC27,页面无限滚动加载新内容验证,TheInternet-CHROME,通过,20.94s,段落数 2 → 12
+TC28,随机通知消息刷新验证,TheInternet-CHROME,通过,18.95s,共收集到2种消息
+TC29,Dynamic Controls 元素动态出现与消失,TheInternet-CHROME,通过,25.40s,
+TC30,Dynamic Loading 等待隐藏元素加载完成,TheInternet-CHROME,通过,10.08s,
+TC31,鼠标悬浮显示隐藏用户信息,TheInternet-CHROME,通过,11.80s,
+TC32,键盘按键事件捕获验证,TheInternet-CHROME,通过,6.58s,
+TC33,新窗口打开与切换验证,TheInternet-CHROME,通过,6.38s,
+TC34,页面刷新菜单项动态变化验证,TheInternet-CHROME,通过,9.45s,
+
+总用例数,34
+通过,34
+失败,0
+通过率,100.0%
+总耗时,429.14s
+浏览器,CHROME

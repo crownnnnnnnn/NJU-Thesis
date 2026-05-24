@@ -1,0 +1,32 @@
+﻿tc_id,tc_name,module,result,duration,remark
+ET01,错误元素定位异常捕获验证,异常验证,通过,19.56s,异常捕获成功 [NoSuchElementException] 截图:screenshots\ET01_chrome_1779443531.png
+ET02,等待时间不足导致超时异常验证,异常验证,通过,6.75s,"超时捕获成功 [TimeoutException] 等待1s不足, 恢复15s后正常 截图:screenshots\ET02_chrome_1779443540.png"
+ET03,拖拽跨浏览器兼容性分析(CHROME),异常验证,通过,12.54s,CHROME 拖拽正常执行
+ET04,未登录状态访问受保护页面验证,异常验证,通过,7.49s,未登录访问受保护页面被正确重定向至登录页
+ET05,StaleElementReferenceException 处理验证,异常验证,通过,8.79s,[StaleElementReferenceException] 元素引用过期异常捕获成功 截图:screenshots\ET05_chrome_1779443577.png
+ET06,点击隐藏元素异常捕获验证,异常验证,通过,15.74s,[ElementNotInteractableException] 隐藏元素交互异常捕获成功 截图:screenshots\ET06_chrome_1779443595.png
+ET07,切换已关闭窗口句柄异常捕获验证,异常验证,通过,6.66s,[NoSuchWindowException] 无效窗口句柄异常捕获成功 截图:screenshots\ET07_chrome_1779443604.png
+ET08,未切换iframe直接操作内部元素异常验证,异常验证,通过,13.46s,[TimeoutException] 未切换iframe操作内部元素异常捕获成功 截图:screenshots\ET08_chrome_1779443619.png
+ET01,错误元素定位异常捕获验证,异常验证,通过,20.35s,异常捕获成功 [NoSuchElementException] 截图:screenshots\ET01_edge_1779443642.png
+ET02,等待时间不足导致超时异常验证,异常验证,通过,6.64s,"超时捕获成功 [TimeoutException] 等待1s不足, 恢复15s后正常 截图:screenshots\ET02_edge_1779443650.png"
+ET03,拖拽跨浏览器兼容性分析(EDGE),异常验证,通过,11.69s,EDGE 拖拽正常执行
+ET04,未登录状态访问受保护页面验证,异常验证,通过,11.01s,未登录访问受保护页面被正确重定向至登录页
+ET05,StaleElementReferenceException 处理验证,异常验证,通过,9.44s,[StaleElementReferenceException] 元素引用过期异常捕获成功 截图:screenshots\ET05_edge_1779443691.png
+ET06,点击隐藏元素异常捕获验证,异常验证,通过,15.53s,[ElementNotInteractableException] 隐藏元素交互异常捕获成功 截图:screenshots\ET06_edge_1779443709.png
+ET07,切换已关闭窗口句柄异常捕获验证,异常验证,通过,6.54s,[NoSuchWindowException] 无效窗口句柄异常捕获成功 截图:screenshots\ET07_edge_1779443717.png
+ET08,未切换iframe直接操作内部元素异常验证,异常验证,通过,16.09s,[TimeoutException] 未切换iframe操作内部元素异常捕获成功 截图:screenshots\ET08_edge_1779443736.png
+ET01,错误元素定位异常捕获验证,异常验证,通过,20.53s,异常捕获成功 [NoSuchElementException] 截图:screenshots\ET01_firefox_1779443758.png
+ET02,等待时间不足导致超时异常验证,异常验证,通过,8.48s,"超时捕获成功 [TimeoutException] 等待1s不足, 恢复15s后正常 截图:screenshots\ET02_firefox_1779443767.png"
+ET03,拖拽跨浏览器兼容性分析(FIREFOX),异常验证,通过,16.96s,FIREFOX 拖拽正常执行
+ET04,未登录状态访问受保护页面验证,异常验证,通过,9.79s,未登录访问受保护页面被正确重定向至登录页
+ET05,StaleElementReferenceException 处理验证,异常验证,通过,12.75s,[StaleElementReferenceException] 元素引用过期异常捕获成功 截图:screenshots\ET05_firefox_1779443810.png
+ET06,点击隐藏元素异常捕获验证,异常验证,通过,7.57s,[ElementNotInteractableException] 隐藏元素交互异常捕获成功 截图:screenshots\ET06_firefox_1779443818.png
+ET07,切换已关闭窗口句柄异常捕获验证,异常验证,通过,8.80s,[NoSuchWindowException] 无效窗口句柄异常捕获成功 截图:screenshots\ET07_firefox_1779443827.png
+ET08,未切换iframe直接操作内部元素异常验证,异常验证,通过,18.47s,[TimeoutException] 未切换iframe操作内部元素异常捕获成功 截图:screenshots\ET08_firefox_1779443846.png
+
+总用例数,24
+通过,24
+失败,0
+通过率,100.0%
+总耗时,335.07s
+浏览器,EXCEPTION
